@@ -48,6 +48,7 @@ void Engine::Application::Run()
         //Render();
     }
 
+    std::cout << "positionX : " << positionX << '\n';
     Shutdown();
 }
 
@@ -83,11 +84,10 @@ bool Engine::Application::Initialize()
 }
 void Engine::Application::Update(double deltaTime)
 {
-    std::cout << "[Engine] Update" << std::endl;
+    //std::cout << "[Engine] Update" << std::endl;
 
-    (void)deltaTime;
+    positionX += 100 * deltaTime;
 
-    std::cout << deltaTime << '\n';
 }
 
 void Engine::Application::Render()

@@ -136,7 +136,7 @@
     <ClInclude Include="헤더.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\SDL-release-3.4.16\VisualC\SDL\SDL.vcxproj">
+    <ProjectReference Include="..\..\..\..\SDL-release-3.4.16\VisualC\SDL\SDL.vcxproj">
       <Project>{81ce8daf-ebb2-4761-8e45-b71abcca8c68}</Project>
     </ProjectReference>
   </ItemGroup>

@@ -22,6 +22,7 @@ namespace Engine
 
 		EngineConfig config;
 		Window window;
+		double positionX = 0.0;
 		bool running = false;
 	};
 }
